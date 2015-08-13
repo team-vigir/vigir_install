@@ -115,9 +115,10 @@ You can setup your current shell's environment by entering
 
     source $WORKSPACE_ROOT/setup.bash
 
-or by adding this command to your .bashrc file for automatic setup on each invocation of an interactive shell:
+or by execute the below command this command to add the workspace setup to your
+.bashrc file for automatic setup on each invocation of an interactive shell:
 
-    echo "source $WORKSPACE_ROOT/setup.bash >> ~/.bashrc"
+    echo "source $WORKSPACE_ROOT/setup.bash" >> ~/.bashrc
 
 You can also modify your workspace config (e.g. for adding additional repositories or
 packages) using the wstool command.
