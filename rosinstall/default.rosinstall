@@ -1,0 +1,2 @@
+- git: {local-name: src/vigir_scripts, uri: 'https://github.com/thor-mang/vigir_scripts.git', version: master}
+

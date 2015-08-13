@@ -1,0 +1,11 @@
+--- recorder_cpp_old	2015-03-03 09:59:46.990333418 +0100
++++ recorder.cpp	2015-03-03 10:00:29.461794599 +0100
+@@ -466,7 +466,7 @@
+ #if BOOST_VERSION >= 105000
+             boost::xtime_get(&xt, boost::TIME_UTC_);
+ #else
+-            boost::xtime_get(&xt, boost::TIME_UTC);
++            boost::xtime_get(&xt, boost::TIME_UTC_);
+ #endif
+             xt.nsec += 250000000;
+             queue_condition_.timed_wait(lock, xt);
