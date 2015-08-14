@@ -2,40 +2,40 @@
     uri: https://github.com/team-vigir/remotelaunch.git
     local-name: ../remotelaunch
     version: master
+#- git:
+#    uri: https://external.torcrobotics.com/vigir_robot.git
+#    local-name: src/vigir_robot
+#    version: master
+#- git:
+#    uri: https://external.torcrobotics.com/vigir_scenarios.git
+#    local-name: src/vigir_scenarios
+#    version: master
 - git:
-    uri: https://external.torcrobotics.com/vigir_robot.git
-    local-name: src/vigir_robot
-    version: master
-- git:
-    uri: https://external.torcrobotics.com/vigir_scenarios.git
-    local-name: src/vigir_scenarios
-    version: master
-- git:
-    uri: https://external.torcrobotics.com/vigir_launch.git
+    uri: https://github.com/team-vigir/vigir_launch.git
     local-name: src/vigir_launch
     version: master
+#- git:
+#    uri: https://external.torcrobotics.com/vigir_state_estimation.git
+#    local-name: src/vigir_state_estimation
+#    version: master
 - git:
-    uri: https://external.torcrobotics.com/vigir_state_estimation.git
-    local-name: src/vigir_state_estimation
-    version: master
-- git:
-    uri: https://external.torcrobotics.com/vigir_ocs_eui.git
-    local-name: src/vigir_ocs_eui
+    uri: https://external.torcrobotics.com/vigir_rqt.git
+    local-name: src/vigir_rqt
     version: master
 - git:
     uri: https://github.com/team-vigir/vigir_ocs_common.git
     local-name: src/vigir_ocs_common
     version: master
-- git:
-    uri: https://external.torcrobotics.com/flor_common.git
-    local-name: src/flor_common
-    version: master
+#- git:
+#    uri: https://external.torcrobotics.com/flor_common.git
+#    local-name: src/flor_common
+#    version: master
 - git:
     uri: https://github.com/team-vigir/vigir_utilities.git
     local-name: src/vigir_utilities
     version: master
 - git:
-    uri: https://external.torcrobotics.com/vigir_perception.git
+    uri: https://github.com/team-vigir/vigir_perception.git
     local-name: src/vigir_perception
     version: master
 - git:
@@ -51,19 +51,19 @@
     local-name: src/external/rbdl
     version: default
 - git:
-    uri: https://external.torcrobotics.com/flor_rviz.git
-    local-name: src/flor_rviz
+    uri: https://github.com/team-vigir/vigir_rviz.git
+    local-name: src/vigir_rviz
     version: indigo-devel
-- hg:
-    uri: 'https://bitbucket.org/teamvigir/multisense_ros'
-    local-name: src/vigir_multisense_ros
-    version: vigir
+#- hg:
+#    uri: 'https://bitbucket.org/teamvigir/multisense_ros'
+#    local-name: src/vigir_multisense_ros
+#    version: vigir
 - git:
     uri: https://github.com/team-vigir/robotiq.git
     local-name: src/external/robotiq
     version: hydro-devel
 - git:
-    uri: https://external.torcrobotics.com/vigir_ros_control.git
+    uri: https://github.com/team-vigir/vigir_ros_control.git
     local-name: src/vigir_ros_control
     version: master
 - git:
@@ -79,21 +79,21 @@
     local-name: src/control_toolbox
     version: indigo-devel
 - git:
-    uri: https://external.torcrobotics.com/vigir_grasp_control.git
+    uri: https://github.com/team-vigir/vigir_grasp_control.git
     local-name: src/vigir_grasp_control
     version: master
 - git:
     uri: https://github.com/team-vigir/vigir_grasp_msgs.git
     local-name: src/vigir_grasp_msgs
     version: master
-- git:
-    uri: https://external.torcrobotics.com/vigir_matlab.git
-    local-name: src/vigir_matlab
-    version: master
-- git:
-    uri: https://external.torcrobotics.com/vigir_force_torque_tools.git
-    local-name: src/vigir_force_torque_tools
-    version: master
+#- git:
+#    uri: https://external.torcrobotics.com/vigir_matlab.git
+#    local-name: src/vigir_matlab
+#    version: master
+#- git:
+#    uri: https://external.torcrobotics.com/vigir_force_torque_tools.git
+#    local-name: src/vigir_force_torque_tools
+#    version: master
 - git:
     uri: https://external.torcrobotics.com/vigir_templates.git
     local-name: src/vigir_templates
@@ -114,22 +114,22 @@
     uri: https://github.com/team-vigir/vigir_terrain_classifier.git
     local-name: src/vigir_footstep_planning/vigir_terrain_classifier
     version: master
-- git:
-    uri: https://external.torcrobotics.com/flor_smach_engine.git
-    local-name: src/vigir_smach_engine
-    version: master
-- git:
-    uri: https://external.torcrobotics.com/vigir_behaviors.git
-    local-name: src/vigir_behaviors
-    version: master
-- git:
-    uri: https://external.torcrobotics.com/vigir_behavior_synthesis.git
-    local-name: src/vigir_behavior_synthesis
-    version: master
-- git:
-    uri: https://external.torcrobotics.com/vigir_local.git
-    local-name: src/vigir_local
-    version: master
+#- git:
+#    uri: https://external.torcrobotics.com/flor_smach_engine.git
+#    local-name: src/vigir_smach_engine
+#    version: master
+#- git:
+#    uri: https://external.torcrobotics.com/vigir_behaviors.git
+#    local-name: src/vigir_behaviors
+#    version: master
+#- git:
+#    uri: https://external.torcrobotics.com/vigir_behavior_synthesis.git
+#    local-name: src/vigir_behavior_synthesis
+#    version: master
+#- git:
+#    uri: https://external.torcrobotics.com/vigir_local.git
+#    local-name: src/vigir_local
+#    version: master
 - git:
    uri: https://github.com/team-vigir/vigir_interactive_marker_pose_server.git
    local-name: src/vigir_interactive_marker_pose_server
