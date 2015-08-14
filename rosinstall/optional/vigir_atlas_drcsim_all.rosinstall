@@ -174,7 +174,7 @@
 - git:
    uri: https://github.com/team-vigir/vigir_manipulation_planning.git
    local-name: src/vigir_manipulation_planning
-   version: master
+   version: open_source_test
 - git:
    uri: https://github.com/team-vigir/vigir_planning_msgs.git
    local-name: src/vigir_planning_msgs
@@ -219,3 +219,17 @@
 #    uri: https://github.com/tu-darmstadt-ros-pkg/motion_editor.git
 #    local-name: src/external/motion_editor
 #    version: master
+
+
+- git:
+    uri: https://github.com/team-vigir/flexbe_behavior_engine.git
+    local-name: src/flexbe_behavior_engine
+    version: master
+- git:
+    uri: https://github.com/team-vigir/vigir_behaviors.git
+    local-name: src/vigir_behaviors
+    version: master
+- git:
+    uri: https://github.com/team-vigir/vigir_behavior_synthesis.git
+    local-name: src/vigir_behavior_synthesis
+    version: open_source_test
