@@ -19,7 +19,7 @@
 #    local-name: src/vigir_state_estimation
 #    version: master
 - git:
-    uri: https://external.torcrobotics.com/vigir_rqt.git
+    uri: https://github.com/team-vigir/vigir_rqt.git
     local-name: src/vigir_rqt
     version: master
 - git:
@@ -34,10 +34,10 @@
     uri: https://github.com/team-vigir/vigir_utilities.git
     local-name: src/vigir_utilities
     version: master
-- git:
-    uri: https://github.com/team-vigir/vigir_perception.git
-    local-name: src/vigir_perception
-    version: master
+#- git:
+#    uri: https://github.com/team-vigir/vigir_perception.git
+#    local-name: src/vigir_perception
+#    version: master
 - git:
     uri: https://github.com/tu-darmstadt-ros-pkg/topic_proxy.git
     local-name: src/external/topic_proxy
@@ -53,7 +53,7 @@
 - git:
     uri: https://github.com/team-vigir/vigir_rviz.git
     local-name: src/vigir_rviz
-    version: indigo-devel
+    version: master
 #- hg:
 #    uri: 'https://bitbucket.org/teamvigir/multisense_ros'
 #    local-name: src/vigir_multisense_ros
@@ -95,7 +95,7 @@
 #    local-name: src/vigir_force_torque_tools
 #    version: master
 - git:
-    uri: https://external.torcrobotics.com/vigir_templates.git
+    uri: https://github.com/team-vigir/vigir_templates.git
     local-name: src/vigir_templates
     version: master
 - git:
@@ -197,7 +197,7 @@
    version: master
 - git:
    uri: https://github.com/team-vigir/vigir_perception
-   local-name: src/vigir_perception_github
+   local-name: src/vigir_perception
    version: master
 - git:
    uri: https://github.com/team-vigir/geometric_shapes.git
@@ -211,6 +211,10 @@
    uri: https://github.com/team-vigir/moveit_plugins.git
    local-name: src/moveit_plugins
    version: indigo-devel   
+- git:
+   uri: https://github.com/team-vigir/vigir_control_msgs.git   
+   local-name: src/vigir_control_msgs
+   version: master     
 #- git:
 #    uri: https://github.com/tu-darmstadt-ros-pkg/motion_editor.git
 #    local-name: src/external/motion_editor
