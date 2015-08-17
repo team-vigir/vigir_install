@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd $WORKSPACE_ROOT
+#cd $WORKSPACE_ROOT
 
 # parse parameters
 while [ -n "$1" ]; do
@@ -102,8 +102,9 @@ fi
 . $WORKSPACE_ROOT/setup.bash
 
 # invoke make for the initial setup
-catkin_make cmake_check_build_system
-. $WORKSPACE_ROOT/src/thor_mang_scripts/scripts/make.sh
+#catkin_make cmake_check_build_system
+#. $WORKSPACE_ROOT/src/thor_mang_scripts/scripts/make.sh
+catkin build
 echo
 
 # Initialization successful. Print message and exit.
