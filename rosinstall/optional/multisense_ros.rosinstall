@@ -1,0 +1,4 @@
+- hg:
+    uri: https://bitbucket.org/crl/multisense_ros
+    local-name: src/multisense_ros
+    version: default
