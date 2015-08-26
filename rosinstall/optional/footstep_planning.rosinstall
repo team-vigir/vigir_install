@@ -1,0 +1,17 @@
+# Footstep Planning    
+- git:
+    uri: https://github.com/team-vigir/vigir_footstep_planning_msgs.git
+    local-name: src/vigir_footstep_planning/vigir_footstep_planning_msgs
+    version: master
+- git:
+    uri: https://github.com/team-vigir/vigir_footstep_planning_basics.git
+    local-name: src/vigir_footstep_planning/vigir_footstep_planning_basics
+    version: master
+- git:
+    uri: https://github.com/team-vigir/vigir_footstep_planning_core.git
+    local-name: src/vigir_footstep_planning/vigir_footstep_planning_core
+    version: master
+- git:
+    uri: https://github.com/team-vigir/vigir_terrain_classifier.git
+    local-name: src/vigir_footstep_planning/vigir_terrain_classifier
+    version: master

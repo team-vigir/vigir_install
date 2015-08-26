@@ -1,0 +1,17 @@
+# OCS/UI    
+- git:
+   uri: https://github.com/team-vigir/vigir_interactive_marker_pose_server.git
+   local-name: src/vigir_interactive_marker_pose_server
+   version: master
+- git:
+    uri: https://github.com/team-vigir/vigir_ocs_common.git
+    local-name: src/vigir_ocs_common
+    version: master
+- git:
+    uri: https://github.com/team-vigir/vigir_rqt.git
+    local-name: src/vigir_rqt
+    version: master
+- git:
+    uri: https://github.com/team-vigir/vigir_rviz.git
+    local-name: src/vigir_rviz
+    version: master

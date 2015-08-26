@@ -1,0 +1,13 @@
+# Affordances/Object templates    
+- git:
+    uri: https://github.com/team-vigir/vigir_grasp_control.git
+    local-name: src/vigir_grasp_control
+    version: master
+- git:
+    uri: https://github.com/team-vigir/vigir_grasp_msgs.git
+    local-name: src/vigir_grasp_msgs
+    version: master
+- git:
+    uri: https://github.com/team-vigir/vigir_templates.git
+    local-name: src/vigir_templates
+    version: master

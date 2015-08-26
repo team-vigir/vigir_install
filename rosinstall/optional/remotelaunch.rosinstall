@@ -1,0 +1,14 @@
+- git:
+    uri: https://github.com/team-vigir/remotelaunch.git
+    local-name: ../remotelaunch
+    version: master
+
+
+    
+   
+
+    
+
+
+     
+    

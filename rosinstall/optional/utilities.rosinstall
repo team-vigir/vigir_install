@@ -1,0 +1,4 @@
+- git:
+    uri: https://github.com/team-vigir/vigir_utilities.git
+    local-name: src/vigir_utilities
+    version: master

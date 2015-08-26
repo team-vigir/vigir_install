@@ -9,12 +9,19 @@ else
   echo "Installing onboard software..."
   
   cd $WORKSPACE_ROOT
+  
+  wstool merge rosinstall/optional/common_msgs.rosinstall
+  wstool merge rosinstall/optional/utilities.rosinstall
+  wstool merge rosinstall/optional/launch.rosinstall
+  
+  wstool merge rosinstall/optional/moveit.rosinstall
+  wstool merge rosinstall/optional/manipulation_planning.rosinstall  
+  wstool merge rosinstall/optional/object_templates.rosinstall
+    
   wstool merge rosinstall/optional/perception.rosinstall
   wstool merge rosinstall/optional/footstep_planning.rosinstall
-  wstool merge rosinstall/optional/launch.rosinstall
-  wstool merge rosinstall/optional/manipulation_planning.rosinstall
-  wstool merge rosinstall/optional/common_msgs.rosinstall
-  wstool merge rosinstall/optional/moveit.rosinstall
-  wstool merge rosinstall/optional/object_templates.rosinstall
+  
+  
+  wstool update
   
 fi
