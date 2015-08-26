@@ -1,0 +1,4 @@
+- git:
+    uri: https://github.com/team-vigir/vigir_grasp_msgs.git
+    local-name: src/vigir_grasp_msgs
+    version: master
