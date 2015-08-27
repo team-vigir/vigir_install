@@ -1,0 +1,8 @@
+- git:
+    uri: https://bitbucket.org/ihmcrobotics/ihmc_ros.git
+    local-name: src/ihmc_ros
+    version: val_plugin_integration
+- git:
+    uri: https://github.com/team-vigir/vigir_ihmc_integration.git
+    local-name: src/vigir_ihmc_integration
+    version: master

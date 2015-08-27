@@ -1,0 +1,5 @@
+# Atlas specific repos that only work with BDI proprietary software
+- git:
+    uri: https://external.torcrobotics.com/vigir_atlas_ros_control.git
+    local-name: src/vigir_atlas_ros_control
+    version: open_source_test

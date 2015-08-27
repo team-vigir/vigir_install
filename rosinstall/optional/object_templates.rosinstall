@@ -1,0 +1,5 @@
+# Affordances/Object templates
+- git:
+    uri: https://github.com/team-vigir/vigir_templates.git
+    local-name: src/vigir_templates
+    version: master

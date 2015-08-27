@@ -1,0 +1,13 @@
+# Atlas specific repos    
+- git:
+    uri: https://github.com/team-vigir/vigir_atlas_planning.git
+    local-name: src/vigir_atlas_planning
+    version: master
+- git:
+    uri: https://github.com/team-vigir/vigir_atlas_common.git
+    local-name: src/vigir_atlas_common
+    version: master
+- git:
+    uri:     https://github.com/team-vigir/vigir_atlas_pose_estimation_tools.git
+    local-name: src/vigir_atlas_pose_estimation_tools
+    version: master

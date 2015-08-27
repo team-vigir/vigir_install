@@ -1,0 +1,5 @@
+# Drivers    
+- git:
+    uri: https://github.com/team-vigir/robotiq.git
+    local-name: src/external/robotiq
+    version: hydro-devel

@@ -1,0 +1,24 @@
+diff -rupN snopt/snopt7/cppsrc/snoptProblem.cc snopt2/snopt7/cppsrc/snoptProblem.cc
+--- snopt/snopt7/cppsrc/snoptProblem.cc 2006-05-17 08:10:09.000000000 +0200
++++ snopt2/snopt7/cppsrc/snoptProblem.cc        2014-11-13 12:56:20.395981325 +0100
+@@ -1,4 +1,5 @@
+ #include <stdio.h>
++#include <stdlib.h>
+ #include <string.h>
+ #include <assert.h>
+ #include <iostream>
+diff -rupN snopt/snopt7/examples/Submakefile snopt2/snopt7/examples/Submakefile
+--- snopt/snopt7/examples/Submakefile   2008-04-07 16:39:35.000000000 +0200
++++ snopt2/snopt7/examples/Submakefile  2014-11-13 12:45:21.620009562 +0100
+@@ -28,8 +28,8 @@ EXAMPLES_EXE     = $(_EXE:%=$(EXAMPLES_O
+ EXAMPLES_EXE_AR  = $(_EXE_AR:%=$(EXAMPLES_OBJDIR)/%)
+ 
+ 
+-SNOPT_LIBS  = -lsnopt   -lsnprint   -lblas
+-SNOPT_AR    =  libsnopt  libsnprint  libblas
++SNOPT_LIBS  = -lsnopt   -lsnprint   -lblas -lf2c
++SNOPT_AR    =  libsnopt  libsnprint  libblas libf2c
+ SNOPT_AR_LIBS = $(SNOPT_AR:%=$(LIBDIR)/%.a)
+ 
+ all: all_examples
+

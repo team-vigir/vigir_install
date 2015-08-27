@@ -1,0 +1,5 @@
+# Atlas Gazebo related packages
+- git:
+    uri: https://github.com/team-vigir/vigir_gazebo.git
+    local-name: src/vigir_gazebo
+    version: master

@@ -1,0 +1,17 @@
+--- NonlinearProgramSnoptmex.cpp	2015-03-04 13:13:26.044427011 +0100
++++ NonlinearProgramSnoptmex.cpp.new	2015-03-04 13:13:17.156427280 +0100
+@@ -43,12 +43,12 @@
+   return 0;
+ }
+ 
+-void mysnseti(const char* strOpt,snopt::integer val,snopt::integer* iPrint, snopt::integer* iSumm, snopt::integer* INFO_snopt, char* cw, snopt::integer *lencw, snopt::integer* iw, snopt::integer *leniw, snopt::doublereal* rw, snopt::integer *lenrw) 
++void mysnseti(char* strOpt,snopt::integer val,snopt::integer* iPrint, snopt::integer* iSumm, snopt::integer* INFO_snopt, char* cw, snopt::integer *lencw, snopt::integer* iw, snopt::integer *leniw, snopt::doublereal* rw, snopt::integer *lenrw) 
+ {
+   snopt::integer strOpt_len = static_cast<snopt::integer>(strlen(strOpt));
+   snopt::snseti_(strOpt,&val,iPrint,iSumm,INFO_snopt,cw,lencw,iw,leniw,rw,lenrw,strOpt_len,8*(*lencw));
+ }
+-void mysnsetr(const char* strOpt,snopt::doublereal val,snopt::integer* iPrint, snopt::integer* iSumm, snopt::integer* INFO_snopt, char* cw, snopt::integer *lencw, snopt::integer* iw, snopt::integer *leniw, snopt::doublereal* rw, snopt::integer *lenrw) 
++void mysnsetr(char* strOpt,snopt::doublereal val,snopt::integer* iPrint, snopt::integer* iSumm, snopt::integer* INFO_snopt, char* cw, snopt::integer *lencw, snopt::integer* iw, snopt::integer *leniw, snopt::doublereal* rw, snopt::integer *lenrw) 
+ {
+   snopt::integer strOpt_len = static_cast<snopt::integer>(strlen(strOpt));
+   snopt::snsetr_(strOpt,&val,iPrint,iSumm,INFO_snopt,cw,lencw,iw,leniw,rw,lenrw,strOpt_len,8*(*lencw));

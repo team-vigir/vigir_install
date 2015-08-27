@@ -1,0 +1,5 @@
+# Manipulation Planning      
+- git:
+   uri: https://github.com/team-vigir/vigir_manipulation_planning.git
+   local-name: src/vigir_manipulation_planning
+   version: master

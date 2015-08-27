@@ -1,0 +1,26 @@
+# This installs Team ViGIR's forks of MoveIt! Need to check if we
+# can switch back to standard packages.
+- git:
+    uri: https://github.com/team-vigir/moveit_core.git
+    local-name: src/moveit_core
+    version: add_cubic_smoothing
+- git:
+    uri: https://github.com/team-vigir/moveit_ros.git
+    local-name: src/moveit_ros
+    version: add_cubic
+- git:
+    uri: https://github.com/team-vigir/moveit_msgs.git
+    local-name: src/moveit_msgs
+    version: indigo-devel
+- git:
+    local-name: src/moveit_planners
+    uri: https://github.com/team-vigir/moveit_planners.git
+    version: indigo-devel
+- git:
+   uri: https://github.com/team-vigir/moveit_plugins.git
+   local-name: src/moveit_plugins
+   version: indigo-devel
+- git:
+   uri: https://github.com/team-vigir/geometric_shapes.git
+   local-name: src/vigir_geometric_shapes
+   version: indigo-devel 

@@ -1,0 +1,9 @@
+prefix=/usr/local
+
+Name: SNOPT_CPP
+Description: SNOPT C++ bindings
+Version: 7.0
+Cflags: -I${prefix}/cppsrc -I${prefix}/f2c/src
+Libs: -L${prefix}/lib -lsnopt_cpp -lsnopt -lf2c -lblas -lsnprint -L/usr/lib/gcc/ -L/lib/../lib64 -L/lib/ -L/usr/lib64/ -L/usr/lib64 -lgfortran  ${prefix}/lib/libf2c.a -lm
+
+

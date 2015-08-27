@@ -1,0 +1,13 @@
+# Perception   
+- git:
+    uri: https://github.com/team-vigir/robot_self_filter.git
+    local-name: src/external/robot_self_filter
+    version: support_multiple_collisions_geoms_per_link
+- git:
+   uri: https://github.com/team-vigir/vigir_lidar_proc
+   local-name: src/vigir_lidar_proc
+   version: master    
+- git:
+   uri: https://github.com/team-vigir/vigir_perception
+   local-name: src/vigir_perception
+   version: master

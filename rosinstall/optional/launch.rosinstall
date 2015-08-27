@@ -1,0 +1,5 @@
+# Launch setups for running Team ViGIR software
+- git:
+    uri: https://github.com/team-vigir/vigir_launch.git
+    local-name: src/vigir_launch
+    version: master
