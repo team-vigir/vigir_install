@@ -8,20 +8,14 @@ else
   echo "Installing onboard software..."
   
   cd $WORKSPACE_ROOT
+
+  # Install dependencies
+  rosinstall/install_scripts/install_atlas_common.sh --no_ws_update
   
   # Common pkgs
-  wstool merge rosinstall/optional/common_msgs.rosinstall
-  wstool merge rosinstall/optional/utilities.rosinstall
-  wstool merge rosinstall/optional/launch.rosinstall
-  
-  # Manipulation planning
-  wstool merge rosinstall/optional/moveit.rosinstall
-  wstool merge rosinstall/optional/manipulation_planning.rosinstall  
-  wstool merge rosinstall/optional/object_templates.rosinstall
-    
-  # Perception, footstep planning
-  wstool merge rosinstall/optional/perception.rosinstall
-  wstool merge rosinstall/optional/footstep_planning.rosinstall  
+  wstool merge rosinstall/optional/ocs.rosinstall
+  wstool merge rosinstall/optional/behavior_control.rosinstall
+
  
   # Optionally check if update is requested. Not doing update saves some
   # time when called from other scripts
