@@ -1,21 +1,21 @@
 # Standard thor mang installs
 
-- git: {local-name: src/thor_mang_ros_control, uri: 'https://github.com/thor-mang/thor_mang_ros_control.git', version: master}
+#- git: {local-name: src/thor_mang_ros_control, uri: 'https://github.com/thor-mang/thor_mang_ros_control.git', version: master}
 - git: {local-name: src/thor_mang_libs, uri: 'https://git.sim.informatik.tu-darmstadt.de/ThorMangDev/thor_mang_libs.git', version: master}
 #- git: {local-name: src/thor_mang_tud_common, uri: 'https://git.sim.informatik.tu-darmstadt.de/ThorMangDev/thor_mang_tud_common.git', version: master}
 - git: {local-name: src/thor_mang_common, uri: 'https://github.com/thor-mang/thor_mang_common.git', version: master}
 - git: {local-name: src/thor_mang_tud_moveit_config, uri: 'https://github.com/thor-mang/thor_mang_tud_moveit_config.git', version: master}
-- git: {local-name: src/thor_mang_footstep_planning/thor_mang_footstep_planner, uri: 'https://github.com/thor-mang/thor_mang_footstep_planner.git', version: master}
-- git: {local-name: src/thor_mang_footstep_planning/thor_mang_footstep_planning_msgs, uri: 'https://github.com/thor-mang/thor_mang_footstep_planning_msgs.git', version: master}
+#- git: {local-name: src/thor_mang_footstep_planning/thor_mang_footstep_planner, uri: 'https://github.com/thor-mang/thor_mang_footstep_planner.git', version: master}
+#- git: {local-name: src/thor_mang_footstep_planning/thor_mang_footstep_planning_msgs, uri: 'https://github.com/thor-mang/thor_mang_footstep_planning_msgs.git', version: master}
 - git: {local-name: src/thor_mang_force_torque_tools, uri: 'https://git.sim.informatik.tu-darmstadt.de/ThorMangDev/thor_mang_force_torque_tools.git', version: master}
 
 # Driving
 - git: {local-name: src/humanoid_driving, uri: 'https://github.com/hector-humanoid/humanoid_driving.git', version: master}
 
 # ViGIR integration
-- git: {local-name: src/thor/thor_mang_vigir_integration, uri: 'https://github.com/thor-mang/thor_mang_vigir_integration.git', version: master}
+- git: {local-name: src/thor_mang_vigir_integration, uri: 'https://github.com/thor-mang/thor_mang_vigir_integration.git', version: master}
 - git: {local-name: src/vigir_humanoid_control_msgs, uri: 'https://github.com/team-vigir/vigir_humanoid_control_msgs.git', version: master}
 
 # Gazebo related thor mang installs
-- git: {local-name: src/thor/thor_mang_simulation, uri: 'https://github.com/thor-mang/thor_mang_simulator.git', version: master}
-- git: {local-name: src/external/hector_gazebo, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_gazebo.git', version: indigo-devel}
+- git: {local-name: src/thor_mang_simulation, uri: 'https://github.com/thor-mang/thor_mang_simulator.git', version: master}
+- git: {local-name: src/hector_gazebo, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_gazebo.git', version: indigo-devel}
