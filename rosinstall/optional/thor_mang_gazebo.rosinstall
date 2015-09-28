@@ -19,6 +19,11 @@
 
 # Simple biped state estimator
 - git: {local-name: src/biped_state_estimator, uri: 'https://github.com/thor-mang/biped_state_estimator.git', version: master}
+- git: {local-name: src/robot_transforms, uri: 'https://github.com/hector-humanoid/robot_transforms.git', version: master}
+
+# Grasp controller for stump hands
+- git: {local-name: src/vigir_stump_grasp_controller, uri: 'https://github.com/team-vigir/vigir_stump_grasp_controller.git', version: master}
+
 
 # Below not required for simulation
 #- git: {local-name: src/thor_mang_ros_control, uri: 'https://github.com/thor-mang/thor_mang_ros_control.git', version: master}
