@@ -15,6 +15,7 @@ else
   # Common pkgs
   wstool merge rosinstall/optional/ocs.rosinstall
   wstool merge rosinstall/optional/behavior_control.rosinstall
+  wstool merge rosinstall/optional/atlas_bdi_propietary.rosinstall
 
  
   # Optionally check if update is requested. Not doing update saves some

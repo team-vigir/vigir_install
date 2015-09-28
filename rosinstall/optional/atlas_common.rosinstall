@@ -1,4 +1,7 @@
-# Atlas specific repos    
+# Atlas specific repos
+#
+# Includes robot model (urdf), moveit planning model (srdf)
+# and pose estimation tools
 - git:
     uri: https://github.com/team-vigir/vigir_atlas_planning.git
     local-name: src/vigir_atlas_planning

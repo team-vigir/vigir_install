@@ -10,14 +10,11 @@
 - git: {local-name: src/thor_mang_force_torque_tools, uri: 'https://git.sim.informatik.tu-darmstadt.de/ThorMangDev/thor_mang_force_torque_tools.git', version: master}
 
 # Driving
-
 - git: {local-name: src/humanoid_driving, uri: 'https://github.com/hector-humanoid/humanoid_driving.git', version: master}
 
 # ViGIR integration
 - git: {local-name: src/thor/thor_mang_vigir_integration, uri: 'https://github.com/thor-mang/thor_mang_vigir_integration.git', version: master}
-- git: {local-name: src/vigir/vigir_humanoid_control_msgs, uri: 'https://github.com/team-vigir/vigir_humanoid_control_msgs.git', version: master}
-- git: {local-name: src/vigir/vigir_control_msgs, uri: 'https://github.com/team-vigir/vigir_control_msgs.git', version: master}
-
+- git: {local-name: src/vigir_humanoid_control_msgs, uri: 'https://github.com/team-vigir/vigir_humanoid_control_msgs.git', version: master}
 
 # Gazebo related thor mang installs
 - git: {local-name: src/thor/thor_mang_simulation, uri: 'https://github.com/thor-mang/thor_mang_simulator.git', version: master}

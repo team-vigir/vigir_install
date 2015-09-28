@@ -3,3 +3,7 @@
     uri: https://github.com/team-vigir/vigir_templates.git
     local-name: src/vigir_templates
     version: master
+- git:
+    uri: https://github.com/team-vigir/vigir_object_template_manager.git
+    local-name: src/vigir_object_template_manager
+    version: master

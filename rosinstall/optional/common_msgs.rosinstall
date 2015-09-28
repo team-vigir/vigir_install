@@ -1,4 +1,4 @@
-# Common Messages
+# Common message packages
 - git:
    uri: https://github.com/team-vigir/vigir_planning_msgs.git
    local-name: src/vigir_planning_msgs
@@ -16,14 +16,14 @@
    local-name: src/vigir_perception_msgs
    version: master
 - git:
-    uri: https://github.com/team-vigir/vigir_ocs_msgs.git
-    local-name: src/vigir_ocs_msgs
-    version: master 
+   uri: https://github.com/team-vigir/vigir_ocs_msgs.git
+   local-name: src/vigir_ocs_msgs
+   version: master 
 - git:
    uri: https://github.com/team-vigir/vigir_control_msgs.git   
    local-name: src/vigir_control_msgs
    version: master
 - git:
-    uri: https://github.com/team-vigir/vigir_grasp_msgs.git
-    local-name: src/vigir_grasp_msgs
-    version: master
+   uri: https://github.com/team-vigir/vigir_grasp_msgs.git
+   local-name: src/vigir_grasp_msgs
+   version: master

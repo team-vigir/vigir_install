@@ -1,0 +1,5 @@
+# Drivers    
+- git:
+    uri: https://github.com/team-vigir/vigir_robotiq_gazebo_tools.git
+    local-name: src/vigir_robotiq_gazebo_tools
+    version: master

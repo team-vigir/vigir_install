@@ -1,5 +1,5 @@
 # Control related repositories. Contain forks of ros_control repos
-# as some changesto ros_control were required
+# as some changes to ros_control were required
 - git:
     uri: https://github.com/team-vigir/vigir_ros_control.git
     local-name: src/vigir_ros_control

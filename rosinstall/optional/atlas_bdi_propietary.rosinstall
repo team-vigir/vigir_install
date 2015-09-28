@@ -2,4 +2,4 @@
 - git:
     uri: https://external.torcrobotics.com/vigir_atlas_ros_control.git
     local-name: src/vigir_atlas_ros_control
-    version: open_source_test
+    version: open_source_no_comms_bridge
