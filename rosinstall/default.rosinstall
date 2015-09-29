@@ -1,2 +1,2 @@
-- git: {local-name: src/vigir_scripts, uri: 'https://github.com/team-vigir/vigir_scripts.git', version: refactor_thor_commonality }
+- git: {local-name: src/vigir_scripts, uri: 'https://github.com/team-vigir/vigir_scripts.git', version: master }
 
