@@ -25,7 +25,8 @@
 - git: {local-name: src/vigir_stump_grasp_controller, uri: 'https://github.com/team-vigir/vigir_stump_grasp_controller.git', version: master}
 - git: {local-name: src/thor_vt_hand_common, uri: 'https://github.com/hector-humanoid/thor_vt_hand_common.git', version: master}
 
-
+# Thor environment config
+- git: {local-name: src/vigir_thor_mang_config, uri: 'https://github.com/team-vigir/vigir_thor_mang_config.git', version: master}
 
 # Below not required for simulation
 #- git: {local-name: src/thor_mang_ros_control, uri: 'https://github.com/thor-mang/thor_mang_ros_control.git', version: master}
