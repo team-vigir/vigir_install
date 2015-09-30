@@ -1,0 +1,5 @@
+# Gazebo sim scenarios 
+- git:
+   uri: https://github.com/team-vigir/vigir_scenarios_gazebo
+   local-name: src/vigir_scenarios_gazebo
+   version: master
