@@ -6,6 +6,7 @@ echo "Installing needed packages (both ROS package and system dependency .deb pa
 PACKAGES_TO_INSTALL="\
 mercurial \
 git \
+python-catkin-tools \
 protobuf-compiler \
 libargtable2-dev \
 libcoin80-dev \
