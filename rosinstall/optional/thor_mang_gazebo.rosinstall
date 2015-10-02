@@ -29,7 +29,7 @@
 - git: {local-name: src/vigir_thor_mang_config, uri: 'https://github.com/team-vigir/vigir_thor_mang_config.git', version: master}
 
 # Below not required for simulation
-#- git: {local-name: src/thor_mang_ros_control, uri: 'https://github.com/thor-mang/thor_mang_ros_control.git', version: master}
+#- git: {local-name: src/thor_mang_ros_control, uri: 'https://github.com/thor-mang/thor_mang_ros_control.git', version: higher_sim_gains_gazebo4_tested}
 #- git: {local-name: src/thor_mang_tud_common, uri: 'https://git.sim.informatik.tu-darmstadt.de/ThorMangDev/thor_mang_tud_common.git', version: master}
 #- git: {local-name: src/thor_mang_footstep_planning/thor_mang_footstep_planner, uri: 'https://github.com/thor-mang/thor_mang_footstep_planner.git', version: master}
 #- git: {local-name: src/thor_mang_footstep_planning/thor_mang_footstep_planning_msgs, uri: 'https://github.com/thor-mang/thor_mang_footstep_planning_msgs.git', version: master}
