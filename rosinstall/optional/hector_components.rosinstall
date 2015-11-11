@@ -1,0 +1,5 @@
+# Hector Models
+- git:
+    uri: https://github.com/tu-darmstadt-ros-pkg/hector_models.git
+    local-name: src/hector_models
+    version: indigo-devel
