@@ -10,7 +10,11 @@
 - git:
     uri: https://github.com/team-vigir/vigir_behavior_synthesis.git
     local-name: src/vigir_behavior_synthesis
-    version: open_source_test
+    version: master
+- git:
+    uri: https://github.com/team-vigir/ReSpeC.git
+    local-name: src/ReSpeC
+    version: master
 - git:
     uri: https://github.com/team-vigir/executive_smach.git
     local-name: src/executive_smach
