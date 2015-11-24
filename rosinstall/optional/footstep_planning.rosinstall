@@ -1,5 +1,13 @@
 # Footstep Planning    
 - git:
+    uri: https://github.com/team-vigir/vigir_generic_params.git
+    local-name: src/vigir_generic_params
+    version: master
+- git:
+    uri: https://github.com/team-vigir/vigir_pluginlib.git
+    local-name: src/vigir_pluginlib
+    version: master
+- git:
     uri: https://github.com/team-vigir/vigir_footstep_planning_msgs.git
     local-name: src/vigir_footstep_planning/vigir_footstep_planning_msgs
     version: master
