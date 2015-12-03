@@ -88,10 +88,10 @@ cp /opt/ros/$ROS_DISTRO/share/catkin/cmake/toplevel.cmake $WORKSPACE_ROOT/src/CM
 
 echo
 
+# generate top-level setup.bash
 cat >setup.bash <<EOF
 #!/bin/bash
 # automated generated file
-export WORKSPACE_ROOT=$WORKSPACE_ROOT
 . $WORKSPACE_ROOT/devel/setup.bash
 EOF
 
