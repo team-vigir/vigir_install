@@ -1,0 +1,4 @@
+- git:
+    uri: https://github.com/ros-simulation/gazebo_ros_pkgs.git
+    local-name: src/gazebo_ros_pkgs
+    version: indigo-devel

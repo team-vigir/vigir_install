@@ -20,7 +20,7 @@ else
   
   # This is required because otherwise gazebo_ros_control crashes Gazebo4
   # See https://github.com/ros-simulation/gazebo_ros_pkgs/issues/341
-  wstool merge rosinstall/optional/gazebo_ros_pkgs_jade.rosinstall
+  wstool merge rosinstall/optional/gazebo_ros_pkgs_indigo.rosinstall
  
   # Optionally check if update is requested. Not doing update saves some
   # time when called from other scripts
