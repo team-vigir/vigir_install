@@ -59,7 +59,8 @@ ros-$ROS_DISTRO-ros-control \
 ros-$ROS_DISTRO-ros-controllers \
 ros-$ROS_DISTRO-urdfdom-py \
 ros-$ROS_DISTRO-map-server \
-ros-$ROS_DISTRO-laser-assembler"
+ros-$ROS_DISTRO-laser-assembler \
+ros-$ROS_DISTRO-message-to-tf"
 
 
 sudo apt-get -y install $PACKAGES_TO_INSTALL
